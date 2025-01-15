@@ -1,6 +1,7 @@
 ## Hello! 👋
 
 # Description:
+![2025-01-15 15_43_15-Guess My Number! — Личный_ Microsoft​ Edge](https://github.com/user-attachments/assets/8f3ea615-6a2c-4397-abcf-6ba95946defd)
 
 Guess-my-number: is a game where the program holds a secret number. and you try to guess it in the least tries.
 the game is themed with a 80's arcade display:
