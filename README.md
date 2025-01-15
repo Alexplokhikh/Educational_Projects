@@ -4,8 +4,6 @@
 
 This folder contains educational works that have been implemented as part of training in various online schools. From a primitive HTML layout in a few lines, to a full-fledged "live", multi-page site with a design on a hosting.
 
-# -----
-
 # Legend
 
 - letter U\_ — are projects from courses on Udemy;
