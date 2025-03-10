@@ -6,13 +6,13 @@ This folder contains educational works that have been implemented as part of tra
 
 # Legend
 
-- letter U\_ — are projects from courses on Udemy;
+- letter UD\_ — are projects from courses on Udemy;
 - letter JB\_ — are projects from JohnBryce Academy;
-- letter H_WD\_ — are primitive-design (very upsetting) projects, I've worked on At Home. short intensive to get familiar with Web design;
+- letter FM\_ — are projects from Front-end Mentor;
+- letter H\_ — are primitive-design (very upsetting) projects, I've worked on At Home. short intensive to get familiar with Web design;
 
-- letter \-W - are related to Web design / Web development (Fron-end: HTML + CSS);
-- letter \-WS - are related to Web design / Web development (Front-end: HTML + CSS + SASS);
-- letter \-JS - are related to Web development (HTML + CSS + JavaScript);
+- letter \-WD - are related to Web design / Web development (Front-end: HTML + CSS / SASS);
+- letter \-JS - are related to Web development (HTML + CSS / SASS + JavaScript);
 
 in that manner: a folder called U-JS_Guess-My-Number - probably holds a *Udemy Project called 'Guess my number' for practice of *JavaScript
 
