@@ -12,7 +12,8 @@ This folder contains educational works that have been implemented as part of tra
 - letter H\_ — are primitive-design (very upsetting) projects, I've worked on At Home. short intensive to get familiar with Web design;
 
 - letter \-WD - are related to Web design / Web development (Front-end: HTML + CSS / SASS);
-- letter \-JS - are related to Web development (HTML + CSS / SASS + JavaScript);
+- letter \-JS - are related to Frontend  (JavaScript);
+- letter \-N - are related to Backend  (Node.js);
 
 in that manner: a folder called U-JS_Guess-My-Number - probably holds a *Udemy Project called 'Guess my number' for practice of *JavaScript
 
