@@ -17,13 +17,6 @@ This folder contains educational works that have been implemented as part of tra
 
 in that manner: a folder called U-JS_Guess-My-Number - probably holds a *Udemy Project called 'Guess my number' for practice of *JavaScript
 
-# Specialties
-
-None.
-
-# Result
-
-A more detailed description of some of the works with pictures can be found on my portfolio website at the link.
-[insert link];
-
 ---
+A more detailed description of some of the works with pictures can be found on my portfolio website at the [LINK](https://plokhikh.netlify.app/).
+
