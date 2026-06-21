@@ -6,6 +6,7 @@ This folder contains educational works that have been implemented as part of tra
 
 # Legend
 
+- letter AN\_ — are projects from courses on Analiza IT Academy;
 - letter UD\_ — are projects from courses on Udemy;
 - letter JB\_ — are projects from JohnBryce Academy;
 - letter FM\_ — are projects from Front-end Mentor;
@@ -14,6 +15,7 @@ This folder contains educational works that have been implemented as part of tra
 - letter \-WD - are related to Web design / Web development (Front-end: HTML + CSS / SASS);
 - letter \-JS - are related to Frontend  (JavaScript);
 - letter \-N - are related to Backend  (Node.js);
+- letter \-PY - are related to Python code practice
 
 in that manner: a folder called U-JS_Guess-My-Number - probably holds a *Udemy Project called 'Guess my number' for practice of *JavaScript
 
