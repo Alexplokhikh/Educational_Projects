@@ -6,13 +6,14 @@ This folder contains educational works that have been implemented as part of tra
 
 # Legend
 
-[Literal-1]
+### [Literal-1]
 - letter AN- — are projects from courses on Analiza IT Academy;
 - letter U- or UD- — are projects from various courses on Udemy;
 - letter JB- — are projects from JohnBryce Academy;
 - letter FEM- — are projects from Front-end Mentor;
 - letter H- — are primitive-design (very upsetting) projects, I've worked on At Home. short intensive to get familiar with Web design;
-[Literal-2]
+
+### [Literal-2]
 - letter WD_ - are related to Web design / Web development (Front-end: HTML + CSS / SASS);
 - letter JS_ - are related to Frontend  (JavaScript);
 - letter N_ - are related to Backend  (Node.js);
