@@ -3,36 +3,136 @@
 # Description:
 ![2025-01-15 15_43_15-Guess My Number! — Личный_ Microsoft​ Edge](https://github.com/user-attachments/assets/8f3ea615-6a2c-4397-abcf-6ba95946defd)
 
-Guess-my-number: is a game where the program holds a secret number. and you try to guess it in the least tries.
-the game is themed with a 80's arcade display:
+# 🎯 Guess My Number
 
-- the user may click 'Again' to start a new game. <br/ >
-- the secret number should be between 1 and 20, and it stays hidden ('?') until the user catches it correct. <br/ >
-- the user gets 20 tries on each game. <br/ >
-- the correct number will be revealed on a successful guess with an appropriate display! . <br/ >
-- the game shows how many attempts the user is left with starting from 20. <br/ >
-- the GOAL is to guess the number in the least attemts to get the highest score. <br/ >
-- the current highscore is saved and updated with each result.
+A simple browser-based number guessing game built as part of a **Udemy JavaScript course**.
 
-# -----
+The project focuses on practicing core JavaScript concepts, DOM manipulation, event handling, and basic game-state management.
 
-# Legend
+🌐 **[Play the Live Demo](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)**
 
-- letter U\_ — are projects from courses on Udemy;
-- letter JB\_ — are projects from JohnBryce Academy;
-- letter H_WD\_ — are primitive-design (very upsetting) projects, I've worked on At Home. short intensive to get familiar with Web design;
+---
 
-- letter \*W - are related to Web design / Web development (Fron-end: HTML + CSS);
-- letter \*WS - are related to Web design / Web development (Front-end: HTML + CSS + SASS);
-- letter \*JS - are related to Web development (HTML + CSS + JavaScript);
+## 📖 About the Project
 
-in that manner: a folder called U*JS_Guess-My-Number - is probably holds a *Udemy Project called 'Guess my number' for practice of \*JavaScript
+The game generates a random number between **1 and 20**, and the player's goal is to guess it.
 
-# Specialties
+After each guess, the game provides feedback indicating whether the submitted number is too high, too low, or correct.
 
-None.
+The player's score decreases with each incorrect attempt, while the highest successful score is stored as the **highscore** for the current session.
 
-# Result
+Once the correct number is discovered, the game changes its appearance to indicate the successful result.
 
-A more detailed description of some of the works with pictures can be found on my portfolio website at the link.
-[insert link];
+The **Again!** button resets the game so another round can be played without refreshing the page.
+
+---
+
+## ✨ Features
+
+* Random number generation
+* User input validation
+* Too high / too low feedback
+* Dynamic score tracking
+* Highscore tracking
+* Winning-state UI changes
+* Game reset functionality
+* DOM manipulation without external libraries
+
+---
+
+## 🛠️ Built With
+
+* **HTML5** — page structure
+* **CSS3** — styling and game states
+* **JavaScript** — game logic and DOM interaction
+
+No frameworks or external JavaScript libraries are used.
+
+---
+
+## 🧠 Concepts Practiced
+
+This project was primarily an exercise in JavaScript fundamentals, including:
+
+* Selecting and manipulating DOM elements
+* Handling click events
+* Reading and updating element content
+* Working with input values
+* Conditional statements
+* Random number generation
+* Managing application state
+* Updating CSS styles through JavaScript
+* Refactoring repeated logic into reusable functions
+
+---
+
+## 🎮 How to Play
+
+1. Enter a number between **1 and 20**.
+2. Click **Check!**.
+3. Use the hint to determine whether your guess was too high or too low.
+4. Continue guessing until you find the secret number.
+5. Try to finish with the highest possible score.
+6. Click **Again!** to start a new round.
+
+---
+
+## 🚀 Run Locally
+
+No installation or build process is required.
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Alexplokhikh/Educational_Projects.git
+```
+
+Navigate to the project:
+
+```bash
+cd Educational_Projects/U-JS_Guess-My-Number
+```
+
+Then open `index.html` in your browser.
+
+You can also use a local development server such as the **VS Code Live Server** extension.
+
+---
+
+## 🌐 Live Demo
+
+The project is hosted using GitHub Pages:
+
+**[Open Guess My Number →](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)**
+
+---
+
+## 📁 Project Structure
+
+```text
+U-JS_Guess-My-Number/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## 🎓 Project Context
+
+This is an **educational project** created while studying JavaScript through Udemy.
+
+The implementation is intentionally kept simple and framework-free so the focus remains on understanding JavaScript fundamentals and direct interaction with the browser DOM.
+
+For the complete collection of exercises and educational projects, see the main **[Educational Projects repository](https://github.com/Alexplokhikh/Educational_Projects)**.
+
+---
+
+## 👤 Author
+
+**Alex Plokhikh**
+
+* [GitHub](https://github.com/Alexplokhikh)
+* [Portfolio](https://plokhikh.netlify.app/)
+
