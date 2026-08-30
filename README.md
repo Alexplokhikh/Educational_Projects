@@ -1,31 +1,134 @@
-## Hello! 👋
+# Educational Projects 🎓
 
-# Description:
+A collection of small projects, exercises, and experiments I've built while studying software development through online courses, academies, and independent practice.
 
-This folder contains educational works that have been implemented as part of training in various online schools. From a primitive HTML layout in a few lines, to a full-fledged "live", multi-page site with a design on a hosting.
+The repository ranges from basic HTML/CSS exercises to JavaScript applications, Node.js projects, Python practice, and React applications.
 
-# Legend
-
-### [Literal-1]
-- letter AN- — are projects from courses on Analiza IT Academy;
-- letter U- or UD- — are projects from various courses on Udemy;
-- letter JB- — are projects from JohnBryce Academy;
-- letter FEM- — are projects from Front-end Mentor;
-- letter H- — are primitive-design (very upsetting) projects, I've worked on At Home. short intensive to get familiar with Web design;
-
-### [Literal-2]
-- letter WD_ - are related to Web design / Web development (Front-end: HTML + CSS / SASS);
-- letter JS_ - are related to Frontend  (JavaScript);
-- letter N_ - are related to Backend  (Node.js);
-- letter PY_ - are related to Python code practice
-- letter RE_ - are related to React.js/React.ts SPA projects
-
-in that manner: a folder called U-JS_Guess-My-Number - will probably holds a project started at *UDEMY*, to showcase practice of *JavaScript* called *'Guess my number'*
+These projects are primarily educational and document my progression through different technologies and concepts.
 
 ---
-Try the projects by checking: "alexplokhikh.github.io/Educational_Projects/[Literal-1]-[Literal-2]_[Project-name]"
-</br>
-like e.g: [https://github.com/Alexplokhikh/Educational_Projects/U-JS_Guess-My-Number](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)
 
-some of my more advanced projects, with pictures can be found on my portfolio website: [LINK](https://plokhikh.netlify.app/).
+## 📚 Naming Convention
 
+Each project directory follows a simple naming convention:
+
+`[Source]-[Technology]_[Project-Name]`
+
+### Source
+
+| Prefix     | Source                         |
+| ---------- | ------------------------------ |
+| `AN`       | Analiza IT Academy             |
+| `U` / `UD` | Udemy                          |
+| `JB`       | John Bryce Academy             |
+| `FEM`      | Frontend Mentor                |
+| `H`        | Independent / at-home practice |
+
+### Technology
+
+| Prefix | Technology                     |
+| ------ | ------------------------------ |
+| `WD`   | Web Design / HTML / CSS / Sass |
+| `JS`   | JavaScript                     |
+| `N`    | Node.js                        |
+| `PY`   | Python                         |
+| `RE`   | React.js / React + TypeScript  |
+
+For example:
+
+`U-JS_Guess-My-Number`
+
+means:
+
+**Udemy → JavaScript → Guess My Number**
+
+---
+
+## 🧩 Projects
+
+### 🎮 Guess My Number
+
+`U-JS_Guess-My-Number`
+
+A small browser game focused on JavaScript fundamentals and DOM manipulation. The player attempts to discover a randomly generated number between 1 and 20 while maintaining the highest possible score.
+
+**Technologies:** HTML, CSS, JavaScript
+
+[Source Code](./U-JS_Guess-My-Number/) · [Live Demo](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)
+
+---
+
+### 🪟 Modal Window
+
+`H-WD_Modal-window`
+
+A small frontend exercise implementing modal-window behavior and basic DOM interaction.
+
+**Technologies:** HTML, CSS, JavaScript
+
+[Source Code](./H-WD_Modal-window/) · [Live Demo](https://alexplokhikh.github.io/Educational_Projects/H-WD_Modal-window/)
+
+---
+
+### 🌱 Node Farm
+
+`UD-N_Node-Farm`
+
+A Node.js routing exercise implementing a small product catalog.
+
+Product data is loaded from JSON and rendered into reusable HTML templates. Individual products are accessible through dynamically handled routes.
+
+**Concepts practiced:**
+
+* Node.js HTTP server
+* Routing
+* File system operations
+* JSON parsing
+* HTML templating
+* URL handling
+* Reusable template replacement
+
+**Technologies:** Node.js, HTML, JSON
+
+[Source Code](./UD-N_Node-Farm/)
+
+> This project requires a Node.js runtime and therefore is not hosted through GitHub Pages.
+
+---
+
+### 🐍 Python Practice
+
+`AN-PY_Practice`
+
+A collection of Python exercises covering fundamental language concepts and data structures.
+
+**Technologies:** Python
+
+Current exercises include:
+
+* Lists
+* Data structures
+
+[Source Code](./AN-PY_Practice/)
+
+---
+
+## 🌐 GitHub Pages
+
+Static projects in this repository can be accessed using:
+
+`https://alexplokhikh.github.io/Educational_Projects/[Project-Directory]/`
+
+For example:
+
+`https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/`
+
+Only projects that can run entirely in the browser are available through GitHub Pages. Backend and command-line projects remain available as source code in their respective directories.
+
+---
+
+## 🚀 More Projects
+
+More advanced and portfolio-focused projects, including screenshots and detailed descriptions, can be found on my portfolio:
+
+[plokhikh.netlify.app](https://plokhikh.netlify.app/)
