@@ -24,7 +24,8 @@ in that manner: a folder called U-JS_Guess-My-Number - will probably holds a pro
 
 ---
 Try the projects by checking: "alexplokhikh.github.io/Educational_Projects/[Literal-1]-[Literal-2]_[Project-name]"
-e.g: [https://github.com/Alexplokhikh/Educational_Projects/U-JS_Guess-My-Number](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)
+</br>
+like e.g:[https://github.com/Alexplokhikh/Educational_Projects/U-JS_Guess-My-Number](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)
 
 some of my more advanced projects, with pictures can be found on my portfolio website: [LINK](https://plokhikh.netlify.app/).
 
