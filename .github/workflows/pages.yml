@@ -46,7 +46,7 @@ jobs:
           cp index.html _site/index.html
           cp -R H-WD_Modal-window _site/
           cp -R U-JS_Guess-My-Number _site/
-          cp -R U-RE_Flashcards/dist/ _site/
+          cp -R U-RE_Flashcards _site/
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
