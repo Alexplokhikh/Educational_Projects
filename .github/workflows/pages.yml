@@ -1,0 +1,67 @@
+name: Deploy educational projects
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: U-RE_Flashcards/package-lock.json
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install flashcards dependencies
+        working-directory: U-RE_Flashcards
+        run: npm ci
+
+      - name: Build flashcards
+        working-directory: U-RE_Flashcards
+        run: npm run build
+
+      - name: Assemble website
+        run: |
+          mkdir -p _site/U-RE_Flashcards
+          cp index.html _site/index.html
+          cp -R H-WD_Modal-window _site/
+          cp -R U-JS_Guess-My-Number _site/
+          cp -R U-RE_Flashcards/dist/. _site/U-RE_Flashcards/
+
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
