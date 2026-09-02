@@ -1,0 +1,178 @@
+# Educational Projects 🎓
+
+A collection of small projects, exercises, and experiments I've built while studying software development through online courses, academies, and independent practice.
+
+The repository ranges from basic HTML/CSS exercises to JavaScript applications, React applications, Node.js projects, and Python practice. These educational projects document my progression through different technologies and concepts.
+
+**[🌐 Explore the Project Hub](https://alexplokhikh.github.io/Educational_Projects/)** · **[👤 View My Portfolio](https://plokhikh.netlify.app/)**
+
+The project hub brings the collection together in a responsive interface styled with Tailwind CSS. Open browser demos directly or follow source-code links for projects that run locally.
+
+---
+
+## 📚 Naming Convention
+
+Each project directory follows this convention:
+
+`[Source]-[Technology]_[Project-Name]`
+
+### Source
+
+| Prefix     | Source                         |
+| ---------- | ------------------------------ |
+| `AN`       | Analiza IT Academy             |
+| `U` / `UD` | Udemy                          |
+| `JB`       | John Bryce Academy             |
+| `FEM`      | Frontend Mentor                |
+| `H`        | Independent / at-home practice |
+
+### Technology
+
+| Prefix | Technology                     |
+| ------ | ------------------------------ |
+| `WD`   | Web Design / HTML / CSS / Sass |
+| `JS`   | JavaScript                     |
+| `N`    | Node.js                        |
+| `PY`   | Python                         |
+| `RE`   | React.js / React + TypeScript  |
+
+For example, `U-JS_Guess-My-Number` means:
+
+**Udemy → JavaScript → Guess My Number**
+
+---
+
+## 🧩 Projects
+
+### 🃏 React Flashcards
+
+`U-RE_Flashcards`
+
+An interactive flashcard app for practicing React fundamentals. Click a card to reveal its answer, click it again to return to the question, or select another card to switch the active answer.
+
+**Concepts practiced:**
+
+- Components and JSX
+- Rendering lists with stable keys
+- Click event handling
+- Conditional content and CSS classes
+- Managing the selected card with `useState`
+- Typing state and function parameters with TypeScript
+
+**Technologies:** React, TypeScript, Vite, CSS
+
+[Source Code](./U-RE_Flashcards/) · [Live Demo](https://alexplokhikh.github.io/Educational_Projects/U-RE_Flashcards/)
+
+---
+
+### 🎮 Guess My Number
+
+`U-JS_Guess-My-Number`
+
+A small browser game focused on JavaScript fundamentals and DOM manipulation. The player attempts to discover a randomly generated number between 1 and 20 while maintaining the highest possible score.
+
+**Technologies:** HTML, CSS, JavaScript
+
+[Source Code](./U-JS_Guess-My-Number/) · [Live Demo](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/)
+
+---
+
+### 🪟 Modal Window
+
+`H-WD_Modal-window`
+
+A small frontend exercise implementing modal-window behavior and basic DOM interaction. Open a shared modal from multiple buttons and close it using the close button, background overlay, or Escape key.
+
+**Technologies:** HTML, CSS, JavaScript
+
+[Source Code](./H-WD_Modal-window/) · [Live Demo](https://alexplokhikh.github.io/Educational_Projects/H-WD_Modal-window/)
+
+---
+
+### 🌱 Node Farm
+
+`UD-N_Node-Farm`
+
+A Node.js routing exercise implementing a small product catalog.
+
+Product data is loaded from JSON and rendered into reusable HTML templates. Individual products are accessible through dynamically handled routes.
+
+**Concepts practiced:**
+
+- Node.js HTTP server
+- Routing
+- File system operations
+- JSON parsing
+- HTML templating
+- URL handling
+- Reusable template replacement
+
+**Technologies:** Node.js, HTML, JSON
+
+[Source Code](./UD-N_Node-Farm/)
+
+> Requires a running Node.js server. The project hub links to its source code; GitHub Pages does not execute the server.
+
+---
+
+### 🐍 Python Practice
+
+`AN-PY_Practice`
+
+A collection of Python exercises covering fundamental language concepts and data structures.
+
+**Technologies:** Python
+
+Current exercises include:
+
+- Lists
+- Data structures
+
+[Source Code](./AN-PY_Practice/)
+
+> These exercises run locally with Python. The project hub links to their source code.
+
+---
+
+## 🌐 Project Hub & GitHub Pages
+
+**[Browse the Educational Projects Hub](https://alexplokhikh.github.io/Educational_Projects/)**
+
+The repository's root `index.html` provides a shared homepage for the collection, with responsive project cards, links to demos, and links to source code. Its compiled Tailwind CSS is embedded in the HTML.
+
+Browser demos use this URL pattern:
+
+```text
+https://alexplokhikh.github.io/Educational_Projects/[Project-Directory]/
+```
+
+### How Each Project Is Hosted
+
+| Project          | Published content               | How to try it                                                                          |
+| ---------------- | ------------------------------- | -------------------------------------------------------------------------------------- |
+| React Flashcards | Static files generated by Vite  | [Live Demo](https://alexplokhikh.github.io/Educational_Projects/U-RE_Flashcards/)      |
+| Guess My Number  | HTML, CSS, and JavaScript       | [Live Demo](https://alexplokhikh.github.io/Educational_Projects/U-JS_Guess-My-Number/) |
+| Modal Window     | HTML, CSS, and JavaScript       | [Live Demo](https://alexplokhikh.github.io/Educational_Projects/H-WD_Modal-window/)    |
+| Node Farm        | Source code linked from the hub | Run locally with Node.js                                                               |
+| Python Practice  | Source code linked from the hub | Run locally with Python                                                                |
+
+### Deployment
+
+The GitHub Actions workflow in [`.github/workflows/pages.yml`](./.github/workflows/pages.yml):
+
+1. Installs the Flashcards dependencies and builds the React app.
+2. Copies the root homepage and the two static frontend projects into a shared website folder.
+3. Adds the built Flashcards files under `U-RE_Flashcards/`.
+4. Publishes the assembled website to GitHub Pages.
+
+Each push to `main` triggers a new deployment. React and TypeScript source files are compiled before publishing; GitHub Pages serves the resulting HTML, CSS, and JavaScript.
+
+Backend and command-line projects remain in the repository as source code. They are listed on the homepage but are not deployed as runnable GitHub Pages applications.
+
+---
+
+## 🚀 More Projects
+
+More advanced and portfolio-focused projects, including screenshots and detailed descriptions, can be found on my portfolio:
+
+**[plokhikh.netlify.app](https://plokhikh.netlify.app/)**
