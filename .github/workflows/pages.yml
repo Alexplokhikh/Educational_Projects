@@ -27,7 +27,9 @@ jobs:
         with:
           node-version: "24"
           cache: npm
-          cache-dependency-path: U-RE_Flashcards/package-lock.json
+          cache-dependency-path: |
+            U-RE_Flashcards/package-lock.json
+            U-RE_Far-Away/package-lock.json
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -40,13 +42,23 @@ jobs:
         working-directory: U-RE_Flashcards
         run: npm run build
 
+      - name: Install Far-Away dependencies
+        working-directory: U-RE_Far-Away
+        run: npm ci
+
+      - name: Build Far-Away
+        working-directory: U-RE_Far-Away
+        run: npm run build
+
       - name: Assemble website
         run: |
           mkdir -p _site/U-RE_Flashcards
+          mkdir -p _site/U-RE_Far-Away
           cp index.html _site/index.html
           cp -R H-WD_Modal-window _site/
           cp -R U-JS_Guess-My-Number _site/
           cp -R U-RE_Flashcards/dist/. _site/U-RE_Flashcards/
+          cp -R U-RE_Far-Away/dist/. _site/U-RE_Far-Away/
 
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
